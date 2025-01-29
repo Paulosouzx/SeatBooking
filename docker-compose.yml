@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: seat_booking_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: paulo123
+      POSTGRES_DB: seat
+    ports:
+      - "5432:5432"
+
