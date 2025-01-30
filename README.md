@@ -1,6 +1,5 @@
 <p align="center">
-
-  <a href="https://paulosouza.netlify.app" target="_blank"><img src="logoPaulo.png" width="120" alt="Paulo Logo" /></a>
+  <a href="https://paulosouza.netlify.app" target="_blank"><img src="logoPaulo.png" width="120" alt="Paulo Logo Portfolio" /></a>
 </p>
 
 ## Description
