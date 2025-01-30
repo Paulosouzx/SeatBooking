@@ -9,7 +9,7 @@
 
 This project consists of a **NestJS** application designed to manage seat bookings for an event, with a focus on concurrency and preventing race conditions. The application provides three main APIs to view available seats, book seats, and view seats booked by a specific user.
 
-The application uses an in-memory database (e.g., an array or Map) to store seat availability and bookings, ensuring a lightweight and efficient solution. Optionally, you can integrate a database like PostgreSQL or SQLite. In this project, PostgreSQL was used in a Docker container.
+The application uses an in-memory database (e.g., an array or Map) to store seat availability and bookings, ensuring a lightweight and efficient solution. Optionally, you can integrate a database like PostgreSQL or SQLite. In your project, you used PostgreSQL in a Docker container without setting up volumes. This was done to ensure that when the container was stopped or removed, no data would be persisted, preventing any information from being stored on the computer where the container was running. As a result, all data would be lost when stopping the container, maintaining a clean environment for each run.
 
 ## Dependencies
 
