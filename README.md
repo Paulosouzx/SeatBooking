@@ -52,6 +52,8 @@ $ npm run start
 $ npm run start:dev
 ```
 
+You can test the services directly in Postman or access the automatic documentation via Swagger by visiting the /docs endpoint. When the service is started, a link will appear in the terminal, and you can copy it and paste it into your browser. This will redirect you to the Swagger interface, where you can explore the available endpoints and test the API interactively. This makes testing quick and easy, without needing to manually set up Postman.
+
 # API Endpoints
 
 **View Avaliable Seats**
